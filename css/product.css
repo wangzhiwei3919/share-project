@@ -1,0 +1,134 @@
+html{
+    text-align: center;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+}
+p{
+    margin: 0;
+}
+span{
+    display: inline-block;
+}
+.download-app-top{
+    width: 100%;
+    background-color: #4c4c4c;
+    height: .9rem;
+}
+.download-app-top>div{
+    display: inline-block;
+    line-height: .9rem;
+}
+.download-app-top .logo{
+    margin-left:.30rem;
+}
+.download-app-top .log img{
+    width:.74rem;
+    height:.74rem;
+}
+.download-app-top .app-detail{
+    padding-left: .15rem;
+    padding-top: .13rem;
+    text-align: left;
+}
+.download-app-top .download_butten{
+    width:1.7rem;
+    height:.74rem;
+    margin-right:.30rem;
+    cursor: pointer;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.topic-context-body{
+    width: 7.1rem;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+.topic-context-body .picture{
+    width: 100%;
+}
+.topic-context-body .picture img{
+    width: 100%;
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;
+    -webkit-border-top-right-radius:1em;
+    -webkit-border-top-left-radius:1em;
+    -moz-border-top-left-radius: 1rem;
+    -moz-border-top-right-radius: 1rem;
+    margin-top: .2rem;
+}
+.topic-context-body .content{
+    height: 2.72rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-size: .32rem;
+    color: #202020;
+    padding-top: .2rem;
+    text-align: left;
+    padding-left: .24rem;
+}
+.topic-context-body>.content>p:first-child{
+    margin-bottom: .14rem;
+    font-size: .36rem;
+    color: #505050;
+}
+#starName{
+    background-color: #ffd643;
+    border-radius: .08rem;
+    -webkit-border-radius: .08rem;
+    -moz-border-radius: .08rem;
+    font-size: .22rem;
+    color: #282828;
+    padding: 0 .08rem;
+    margin-right: .2rem;
+}
+#summary{
+    font-size: .22rem;
+    color: #a0a0a0;
+}
+#price{
+    font-size: .5rem;
+    color: #ef4c4c;
+    margin-right: .18rem;
+    font-weight: bold;
+}
+#originalPrice{
+    font-size: .24rem;
+    color: #a0a0a0;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.topic-context-body>.content>p:last-child{
+    margin-top: .5rem;
+}
+.topic-context-body>.content .app-name{
+    font-size: .33rem;
+    color: #fd5293;
+}
+.topic-context-body>.content .join-ours{
+    color: #fd5293;
+    font-size: .24rem;
+}
+.download-app-bottom{
+    width: 7.1rem;
+    padding-top:.8rem;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
+    -webkit-border-bottom-right-radius:1em;
+    -webkit-border-bottom-left-radius:1em;
+    -moz-border-bottom-left-radius: 1rem;
+    -moz-border-bottom-right-radius: 1rem;
+}
+.download-app-bottom img{
+    margin: 0 auto .66rem auto;
+}

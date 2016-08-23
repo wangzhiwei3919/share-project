@@ -1,0 +1,149 @@
+html{
+    text-align: center;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+p{
+    margin: 0;
+}
+span{
+    display: inline-block;
+}
+.download-app-top{
+    width: 100%;
+    background-color: #4c4c4c;
+    height: .9rem;
+}
+.download-app-top>div{
+    display: inline-block;
+    line-height: .9rem;
+}
+.download-app-top .logo{
+    margin-left:.30rem;
+}
+.download-app-top .log img{
+    width:.74rem;
+    height:.74rem;
+}
+.download-app-top .app-detail{
+    padding-left: .15rem;
+    padding-top: .13rem;
+    text-align: left;
+}
+.download-app-top .download_butten{
+    width:1.7rem;
+    height:.74rem;
+    margin-right:.30rem;
+    cursor: pointer;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.topic-context-body{
+    width: 6.98rem;
+    margin: .38rem auto 0 auto;
+    text-align: left;
+}
+.topic-context-body .title{
+    line-height: .46rem;
+    font-size: .36rem;
+    color: #282828;
+    margin-bottom: .33rem;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.topic-context-body .info{
+    margin-bottom: .3rem;
+    width: 100%;
+}
+.info span{
+    height: .5rem;
+    vertical-align: middle;
+}
+.info .info-img img{
+    width: .5rem;
+    height: .5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.info .info-name{
+    margin-left: .22rem;
+    font-size: .22rem;
+    line-height: .5rem;
+    color: #7b5ff7;
+}
+.info .info-time .info-time-img{
+    margin-left: .2rem;
+    line-height: .5rem;
+}
+.info .info-time .info-time-text{
+    font-size: .22rem;
+    line-height: .5rem;
+    color:#a0a0a0;
+}
+.info .info-praise .info-praise-img{
+
+}
+.info .info-praise .info-praise-nmb{
+    margin-left: .1rem;
+    line-height: .5rem;
+}
+.topic-context-body .text{
+    margin-bottom: .5rem;
+    font-size: .32rem;
+    color: #646464;
+}
+.topic-context-body .picture{
+    width: 100%;
+    margin-bottom: .18rem;
+}
+.topic-context-body .picture img{
+    width: 100%;
+    margin-bottom: .22rem;
+}
+.comments{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #c8c8c8;
+    text-align: left;
+    padding-top: .4rem;
+}
+.comments .comments-tip{
+    margin-bottom: .46rem;
+}
+.comments .comments-tip img{
+
+}
+.comments .comments-comment{
+    margin-left: .25rem;
+    margin-right: .35rem;
+}
+.comments .comments-comment-info{
+    margin-bottom: .3rem;
+
+}
+.comments .comments-comment-context{
+    margin-left: .7rem;
+    margin-bottom: .4rem;
+    font-size: .32rem;
+    color: #282828;
+}
+.download-app-bottom{
+    width:100%;
+    padding-top:.8rem;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}
+.download-app-bottom img{
+    margin: 0 auto .66rem auto;
+}

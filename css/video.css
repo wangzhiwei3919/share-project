@@ -1,0 +1,212 @@
+html{
+    text-align: center;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+p{
+    margin: 0;
+}
+span{
+    display: inline-block;
+}
+.download-app-top{
+    width: 100%;
+    background-color: #4c4c4c;
+    height: .9rem;
+}
+.download-app-top>div{
+    display: inline-block;
+    line-height: .9rem;
+}
+.download-app-top .logo{
+    margin-left:.30rem;
+}
+.download-app-top .log img{
+    width:.74rem;
+    height:.74rem;
+}
+.download-app-top .app-detail{
+    padding-left: .15rem;
+    padding-top: .13rem;
+    text-align: left;
+}
+.download-app-top .download_butten{
+    width:1.7rem;
+    height:.74rem;
+    margin-right:.30rem;
+    cursor: pointer;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.topic-context-body{
+    width: 6.98rem;
+    margin: .38rem auto 0 auto;
+    text-align: left;
+}
+.topic-context-body .title{
+    text-align: center;
+    line-height: .46rem;
+    font-size: .36rem;
+    color: #282828;
+    margin-bottom: .33rem;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.topic-context-body .info{
+    margin-bottom: .3rem;
+    width: 100%;
+}
+.info span{
+    height: .5rem;
+    vertical-align: middle;
+}
+.info .info-img img{
+    width: .5rem;
+    height: .5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.info .info-name{
+    margin-left: .22rem;
+    font-size: .22rem;
+    line-height: .5rem;
+    color: #7b5ff7;
+}
+.info .info-time .info-time-img{
+    margin-left: .2rem;
+    line-height: .5rem;
+}
+.info .info-time .info-time-text{
+    font-size: .22rem;
+    line-height: .5rem;
+    color:#a0a0a0;
+}
+.info .info-praise .info-praise-img{
+
+}
+.info .info-praise .info-praise-nmb{
+    margin-left: .1rem;
+    line-height: .5rem;
+}
+.topic-context-body .picture{
+    width: 100%;
+    margin-bottom: .18rem;
+    position: relative;
+}
+.topic-context-body .picture #alertDiv{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1001;
+}
+.topic-context-body .picture #alertDiv>img{
+    margin-top:1.95rem ;
+}
+.topic-context-body .picture>img{
+    width: 100%;
+    margin-bottom: .22rem;
+}
+.comments{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #c8c8c8;
+    text-align: left;
+    padding-top: .4rem;
+}
+.comments .comments-tip{
+    margin-bottom: .46rem;
+}
+.comments .comments-tip img{
+
+}
+.comments .comments-comment{
+    margin-left: .25rem;
+    margin-right: .35rem;
+}
+.comments .comments-comment-info{
+    margin-bottom: .3rem;
+
+}
+.comments .comments-comment-context{
+    margin-left: .7rem;
+    margin-bottom: .4rem;
+    font-size: .32rem;
+    color: #282828;
+}
+.download-app-bottom{
+    width:100%;
+    padding-top:.8rem;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}
+.download-app-bottom img{
+    margin: 0 auto .66rem auto;
+}
+#alertDivToApp{
+    background-color: rgba(16,16,16,0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1002;
+    top:0;
+    padding-top: 25%;
+    text-align: center;
+    display: none;
+}
+#alertDivToApp .tip-div{
+    width: 5.74rem;
+    height: 3.32rem;
+    margin: 0 auto 0 auto;
+    border-radius: .16rem;
+    -webkit-border-radius: .16rem;
+    -moz-border-radius: .16rem;
+    background-color: #ffffff;
+    font-size: .34rem;
+}
+#alertDivToApp .tip-div #toAppTip{
+    height: 2.04rem;
+    line-height: 2.04rem;
+    font-weight: bold;
+}
+#alertDivToApp .tip-div #commit1{
+    height: 1.28rem;
+    width: 100%;
+    background-color: #ebebeb;
+    padding:.29rem 0;
+    border-bottom-right-radius:.2em;
+    border-bottom-left-radius:.2em;
+    -webkit-border-bottom-right-radius:.2em;
+    -webkit-border-bottom-left-radius:.2em;
+    -moz-border-bottom-left-radius: .2rem;
+    -moz-border-bottom-right-radius: .2rem;
+}
+#alertDivToApp .tip-div #commit1 input{
+    color: #fd5293;
+    width: 2.46rem;
+    height: .69rem;
+    border-radius: .1rem;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    border: .02rem solid #d2d2d2;
+    background-color: #ffffff;
+    text-align: center;
+}
+#alertDivToApp .tip-div #commit1 input:first-child{
+    margin-right: .20rem;
+}
